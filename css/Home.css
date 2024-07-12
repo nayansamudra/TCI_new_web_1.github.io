@@ -185,6 +185,7 @@ body {
 @media (max-width: 1100px) {
   #Main_Heading {
     font-size: 44px !important;
+    line-height: normal !important;
   }
 
   #Main_Heading_1 {
@@ -3126,9 +3127,15 @@ a[href="https://telegram.me/tradingcafeindia"]
 
   .headText2 {
     font-size: 18px !important;
+    margin-top: 25px !important;
   }
 
   .brokerLoginAccount .col-12.mt-2 div {
     font-size: 14px !important;
+  }
+
+  #TCI_star_trader_first_row,
+  #videoTestimonialContainer {
+    margin-top: 0 !important;
   }
 }
